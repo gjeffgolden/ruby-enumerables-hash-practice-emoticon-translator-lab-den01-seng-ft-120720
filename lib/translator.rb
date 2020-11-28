@@ -9,7 +9,7 @@ def load_library(file_path)
     :angry => {},
     :bored => {},
     :confused => {},
-    
+    :
     
   
   emoticon_hash 
