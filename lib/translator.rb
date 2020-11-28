@@ -12,7 +12,7 @@ def load_library(file_path)
   binding.pry 
   
 end
-
+binding.pry 
 
 def get_japanese_emoticon
   # code goes here
