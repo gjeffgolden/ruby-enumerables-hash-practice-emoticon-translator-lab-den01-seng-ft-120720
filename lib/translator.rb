@@ -11,7 +11,9 @@ def load_library(file_path)
     :confused => {},
     :embarassed => {},
     :fish => {},
-    :
+    :glasses => {},
+    :grinning => {},
+    
     
   
   emoticon_hash 
