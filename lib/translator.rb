@@ -7,6 +7,7 @@ def load_library
   emoticon_hash = YAML.load(emoticons.rb) 
   binding.pry 
 end
+binding.pry 
 
 def get_japanese_emoticon
   # code goes here
