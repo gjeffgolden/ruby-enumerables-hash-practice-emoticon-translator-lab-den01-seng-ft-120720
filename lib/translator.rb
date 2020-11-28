@@ -16,7 +16,7 @@ def load_library(file_path)
     :happy => {},
     :kiss => {},
     :sad => {}, 
-    :surprised => {}
+    :surprised => {},
     :wink => {}
   }
   emoticon_hash 
