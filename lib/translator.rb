@@ -9,13 +9,14 @@ def load_library(file_path)
     emoticon_hash[k] = {:english => v[0], :japanese => v[1]}
   end 
   emoticon_hash 
-  binding.pry 
-
-  
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(hash)
+  japanese_emoticon = " "
+  emoticon_hash.each do |k,v|
+    japanese_emoticon = emoticon_hash[k][v][1]
+  end
+  japanese_emoticon
 end
 
 def get_english_meaning
