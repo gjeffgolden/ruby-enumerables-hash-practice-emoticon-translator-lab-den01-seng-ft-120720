@@ -2,7 +2,7 @@
 
 def load_library
   emoticons = {
-    {
+    {"Angel" => {:english => 
   }
   
   
