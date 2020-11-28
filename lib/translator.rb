@@ -1,9 +1,9 @@
 # require modules here
 
+
+
 def load_library
-  emoticons = {
-    {"Angel" => {:english => 
-  }
+  
   
   
 end
