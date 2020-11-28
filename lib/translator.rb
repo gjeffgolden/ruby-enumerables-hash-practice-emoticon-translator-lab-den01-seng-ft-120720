@@ -17,12 +17,7 @@ end
 
 def get_english_meaning(file_path, emoticon)
   english_emoticon = " "
-  load_library(file_path)
-  binding.pry
-  emoticon_hash
-  load_library.each do |k,v|
-    binding.pry 
-    english_emoticon =
-    binding.pry 
+  load_library(file_path).each do |k,v|
+  
   end
 end
