@@ -9,6 +9,7 @@ def load_library(file_path)
     binding.pry
   end 
   emoticon_hash 
+  binding.pry 
   
 end
 
