@@ -5,19 +5,32 @@ require 'pry'
 
 def load_library(file_path)
   emoticon_hash = {
-    :angel => {},
-    :angry => {},
-    :bored => {},
-    :confused => {},
-    :embarrassed => {},
-    :fish => {},
-    :glasses => {},
-    :grinning => {},
-    :happy => {},
-    :kiss => {},
-    :sad => {}, 
-    :surprised => {},
-    :wink => {}
+    :angel => 
+      {:english => " ", :japanese => " "},
+    :angry => 
+      {:english => " ", :japanese => " "},
+    :bored => 
+      {:english => " ", :japanese => " "},
+    :confused => 
+      {:english => " ", :japanese => " "},
+    :embarrassed => 
+      {:english => " ", :japanese => " "},
+    :fish => 
+      {:english => " ", :japanese => " "},
+    :glasses => 
+      {:english => " ", :japanese => " "},
+    :grinning => 
+      {:english => " ", :japanese => " "},
+    :happy => 
+      {:english => " ", :japanese => " "},
+    :kiss => 
+      {:english => " ", :japanese => " "},
+    :sad => 
+      {:english => " ", :japanese => " "}, 
+    :surprised => 
+      {:english => " ", :japanese => " "},
+    :wink => 
+      {:english => " ", :japanese => " "}
   }
   emoticon_hash 
   
