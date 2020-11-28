@@ -6,8 +6,9 @@ require 'pry'
 def load_library(file_path)
   emoticon_hash = {
     :angel => {},
-    :
-  #YAML.load("lib/emoticons.yml"))
+    :angry => {},
+    
+  
   emoticon_hash 
   
   #binding.pry 
