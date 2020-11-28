@@ -3,7 +3,7 @@
 require 'yaml'
 
 def load_library
-  
+  YAML.load 
   
   
 end
