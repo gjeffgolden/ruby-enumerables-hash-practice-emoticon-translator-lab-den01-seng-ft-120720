@@ -16,9 +16,9 @@ def get_japanese_emoticon()
 end
 
 def get_english_meaning(file_path, emoticon)
-  english_emoticon = " "
+  english_meaning = " "
   load_library(file_path).each do |k,v|
-    english_emoticon = v[:english] 
+    english_meaning = k  
   end
   english_emoticon
 end
