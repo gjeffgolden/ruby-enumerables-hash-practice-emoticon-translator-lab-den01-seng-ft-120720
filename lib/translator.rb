@@ -11,7 +11,10 @@ def load_library(file_path)
   emoticon_hash 
 end
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(file_path, emoticon)
+  load_library(file_path).each do |k,v|
+    
+  end 
   
 end
 
