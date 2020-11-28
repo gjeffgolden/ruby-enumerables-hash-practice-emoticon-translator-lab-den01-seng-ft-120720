@@ -9,16 +9,16 @@ def load_library(file_path)
     :angry => {},
     :bored => {},
     :confused => {},
-    :embarassed => {},
+    :embarrassed => {},
     :fish => {},
     :glasses => {},
     :grinning => {},
-    happy
-    kiss
-    sad 
-    
-    
-  
+    :happy => {},
+    :kiss => {},
+    :sad => {}, 
+    :surprised => {}
+    :wink => {}
+  }
   emoticon_hash 
   
   #binding.pry 
