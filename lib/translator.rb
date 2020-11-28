@@ -13,6 +13,9 @@ def load_library(file_path)
     :fish => {},
     :glasses => {},
     :grinning => {},
+    happy
+    kiss
+    sad 
     
     
   
