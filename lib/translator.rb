@@ -24,4 +24,5 @@ def get_english_meaning(file_path, emoticon)
     english_emoticon = 
     binding.pry 
   end
+  binding.pry 
 end
