@@ -21,5 +21,5 @@ def get_english_meaning(file_path, emoticon)
     if v[:japanese] == emoticon 
       return k 
   end
-  english_meaning 
+
 end
