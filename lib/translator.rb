@@ -21,5 +21,4 @@ def get_english_meaning(file_path, emoticon)
     english_emoticon = v[:english] 
   end
   english_emoticon
-  end
 end
