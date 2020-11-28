@@ -20,5 +20,5 @@ def get_english_meaning(file_path, emoticon)
   load_library(file_path).each do |k,v|
     english_meaning = k  
   end
-  english_emoticon
+  english_meaning 
 end
