@@ -15,15 +15,12 @@ def get_japanese_emoticon()
   
 end
 
-require 'pry'
 def get_english_meaning(file_path, emoticon)
   english_emoticon = " "
   load_library(file_path)
+  binding.pry
   emoticon_hash
-  binding.pry 
   load_library.each do |k,v|
     english_emoticon = 
-    binding.pry 
   end
-  binding.pry 
 end
