@@ -15,6 +15,7 @@ def get_japanese_emoticon()
   
 end
 
+require 'pry'
 def get_english_meaning(file_path, emoticon)
   english_emoticon = " "
   load_library(file_path)
