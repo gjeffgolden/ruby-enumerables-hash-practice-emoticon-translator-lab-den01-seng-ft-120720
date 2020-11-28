@@ -6,8 +6,8 @@ require 'pry'
 def load_library(file_path)
   emoticon_hash = {}
   YAML.load_file(file_path).each do |k,v|
-    emoticon_hash[k] = {:english => " ", :japanese => " "}
-    binding.pry 
+    emoticon_hash[k] = {:english => v[0], :japanese => v[1]}
+    #binding.pry 
 
   end 
   emoticon_hash 
